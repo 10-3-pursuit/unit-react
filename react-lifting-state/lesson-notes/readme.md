@@ -17,7 +17,7 @@ Today we'll refactor the Doggy Day Care app to have more components and utilize 
 
 Start by forking and cloning the following repository:
 
-- [React Lifting State Class Build](https://github.com/joinpursuit/class-build-lifting-state)
+- [React Lifting State Class Build](https://github.com/10-3-pursuit/class-build-lifting-state-vite)
 
 ```
 npm i
