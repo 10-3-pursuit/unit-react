@@ -33,23 +33,10 @@ Node projects need a _top level_ folder:
 Now that the _top level_ folder setup is complete. You can initialize a new npm project:
 
 ```
-npm init
+npm init -y
 ```
 
-This will log a message similar to the following one in the terminal:
-
-> This utility will walk you through creating a package.json file.
-> It only covers the most common items, and tries to guess sensible defaults.
-
-> See `npm help init` for definitive documentation on these fields
-> and exactly what they do.
-
-> Use `npm install <pkg>` afterward to install a package and
-> save it as a dependency in the package.json file.
-
-> Press ^C at any time to quit.
-
-Take the time to read this message and see if you understand it. Some parts may not make sense yet. As you build and work with these projects, it will become easier to understand.
+If you look at the documentation, you may see the option `-y`. This means to select all the default options for the `npm init` command. This can make setting up a basic project for a tutorial or practice even faster.
 
 At the very least, you should take away that:
 
@@ -65,8 +52,6 @@ The terminal should look similar to the following:
 For now, when running `npm init` you can press the <kbd>return</kbd> key repeatedly until you get your regular terminal prompt back. The default values are acceptable if you are learning or doing a tutorial. If you are working on a project that goes into your portfolio or will go into production, you would want to be more thoughtful about each value.
 
 Remember, you can check out more documentation by typing `npm help init` or `man npm`. Both of these commands will load a manual for npm into your terminal. Make your terminal full-sized to be able to read the manual with ease. Additionally, to quit the view type the letter <kbd>q</kbd>. You can also go to the [documentation online](https://docs.npmjs.com).
-
-If you look at the documentation, you may see the option `-y`. This means to select all the default options for the `npm init` command. This can make setting up a basic project for a tutorial or practice even faster.
 
 ## package.json
 
