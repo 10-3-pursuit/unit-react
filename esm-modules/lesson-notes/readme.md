@@ -1,4 +1,4 @@
-# ESM Modules
+# ES Modules
 
 ## Introduction
 
@@ -10,7 +10,7 @@ The company has sent over some data on some possible ice creams, but it's a bit 
 
 By the end of this lesson, you should be able to:
 
-- Create a new node project and set it up to use ESM modules rather than the current default CJS
+- Create a new node project and set it up to use ES Modules rather than the current default CJS
 - Import and export modules using the ESM syntax
 
 ## Getting started
@@ -31,63 +31,63 @@ By the end of this lesson, you should be able to:
   {
     flavor: "Vanilla",
     color: "White",
-    flavorType: "Sweet",
+    flavorType: "Sweet"
   },
   {
     flavor: "Chocolate",
     color: "Brown",
-    flavorType: "Bittersweet",
+    flavorType: "Bittersweet"
   },
   {
     flavor: "Strawberry",
     color: "Pink",
-    flavorType: "Fruity",
+    flavorType: "Fruity"
   },
   {
     flavor: "Mint Chocolate Chip",
     color: "Green",
-    flavorType: "Sweet and Salty",
+    flavorType: "Sweet and Salty"
   },
   {
     flavor: "Coffee",
     color: "Dark Brown",
-    flavorType: "Umami",
+    flavorType: "Umami"
   },
   {
     flavor: "Raspberry Habanero",
     color: "Red",
-    flavorType: "Spicy",
+    flavorType: "Spicy"
   },
   {
     flavor: "Salted Caramel",
     color: "Golden Brown",
-    flavorType: "Sweet and Salty",
+    flavorType: "Sweet and Salty"
   },
   {
     flavor: "Blueberry Cheesecake",
     color: "Blue",
-    flavorType: "Fruity",
+    flavorType: "Fruity"
   },
   {
     flavor: "Pistachio",
     color: "Light Green",
-    flavorType: "Bittersweet",
+    flavorType: "Bittersweet"
   },
   {
     flavor: "Coconut",
     color: "Off-White",
-    flavorType: "Sweet",
+    flavorType: "Sweet"
   },
   {
     flavor: "Lemon Sorbet",
     color: "Yellow",
-    flavorType: "Fruity",
+    flavorType: "Fruity"
   },
   {
     flavor: "Spiced Pumpkin",
     color: "Orange",
-    flavorType: "Spicy",
-  },
+    flavorType: "Spicy"
+  }
 ];
 ```
 
