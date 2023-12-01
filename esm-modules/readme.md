@@ -1,4 +1,4 @@
-# ESM Modules
+# ES Modules
 
 ## Introductions
 
@@ -305,7 +305,7 @@ Import and call the function:
 import {
   message as hello,
   anotherMessage as goodbye,
-  customMessage,
+  customMessage
 } from "./messages.js";
 
 console.log(customMessage("Nice to see you,", "Ava"));
