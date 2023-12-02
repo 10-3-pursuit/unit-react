@@ -95,21 +95,17 @@ Please feel free to read through or code along with the following code examples.
 
 In the terminal, navigate to a convenient location on your computer and type:
 
-- `npm create vite@4 my-app-social-media-app`
-  - **create vite** allows you to start a new Vite project
-    - Use the walkthroughs to select `React` and `JavaScript`
-  - **@4** allows you to download version 4.x of Vite. Setting the version is helpful for class. Utilizing the same version will allow you, your instructors, and the class notes to have the same version to learn and study. If you don't include this, it will download the latest version, which may have some variations to what you see in class.
-  - **my-social-media-app** this is the name of your project and the folder that will contain your Vite. You can name it anything you want.
+- `npm create vite@latest my-app-social-media-app -- --template react`
 
-Inside this project,run
+  - **create vite** allows you to start a new Vite project
+    -@latest allows you to use the latest version of vite
+  - **my-social-media-app** this is the name of your project and the folder that will contain your Vite. You can name it anything you want.
+  - ** -- --template react** this designates the library and environment you would like to use. You could have chosen alternatives such as Next.js or Angular to name a few.
+    Inside this project,run
 
 - `npm install`
 
 The flow should look similar to this
-
-![new vite react app](./assets/new-vite-choose-react.png)
-
-![choose JavaScript](./assets/new-vite-choose-javascript.png)
 
 ![Start new app app](./assets/new-vite-start-app.png)
 
@@ -335,7 +331,7 @@ function formatName(user) {
 
 const user = {
   firstName: "My",
-  lastName: "Name",
+  lastName: "Name"
 };
 
 const hello = <h1>Hello, {formatName(user)}!</h1>;
@@ -490,7 +486,7 @@ First, create some data. Create a file `data.js` inside the `src` folder:
 const postData = {
   title: "Sample Post Title",
   imageLink: "https://www.stockvault.net/data/2007/03/01/100169/preview16.jpg",
-  description: "This is the description of the post",
+  description: "This is the description of the post"
 };
 
 export default postData;
