@@ -280,7 +280,7 @@ const customMessage = (message, name) => {
   return `${message} ${name}`;
 };
 
-module.exports = { message, anotherMessage, customMessage };
+export { message, anotherMessage, customMessage };
 ```
 
 Import and call the function:
