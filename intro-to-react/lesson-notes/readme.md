@@ -28,7 +28,7 @@ There are several ways to [create an application with React or add React to a cu
 
 To use Vite to create a new app:
 
-- `npm create vite@4 my-app`
+- `npm create vite@latest my-app -- --template react`
 
 Inside this project, you will see the following files.
 
