@@ -268,12 +268,12 @@ You want to get the average of the dog grades. You can write a function inside o
 
 ```js
 function Main({ dogs }) {
-  const getAverage = (dogs) => {
+  const getAverage = (dogArray) => {
     let sum = 0;
-    for (let dog of dogs) {
+    for (let dog of dogArray) {
       sum += parseInt(dog.grade);
     }
-    return (sum / dogs.length).toFixed(2);
+    return (sum / dogArray.length).toFixed(2);
   };
   const average = getAverage(dogs);
   return (
