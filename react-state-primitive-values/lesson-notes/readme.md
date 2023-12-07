@@ -15,11 +15,12 @@
 
 ## Getting started
 
-- `npm create vite@4 color-app`
-  - choose `React` then choose `JavaScript`
-- `cd color-app`
-- `npm install`
-- `npm start`
+- `fork` and `clone` [React Basic Starter](https://github.com/10-3-pursuit/react-basic-starter)
+
+- or if you already have the basic starter then, make a copy of it and call it `react-state-primitives-class`
+- `cd` into the repo
+- run `npm install`
+- `npm run dev`
 
 Change the App component:
 
@@ -59,7 +60,7 @@ const colors = [
   "thistle",
   "peachpuff",
   "lightgoldenrodyellow",
-  "paleturquoise",
+  "paleturquoise"
 ];
 ```
 
@@ -182,7 +183,7 @@ const colors = [
   "thistle",
   "peachpuff",
   "lightgoldenrodyellow",
-  "paleturquoise",
+  "paleturquoise"
 ];
 function App() {
   const [color, setColor] = useState("azure");
