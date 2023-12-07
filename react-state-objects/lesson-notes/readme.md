@@ -22,7 +22,7 @@ There will be a list of dogs, we will build functionality to
 
 Start by forking and cloning the following repository:
 
-[React State Objects Class Build](https://github.com/pursuit-curriculum-resources/starter-react-state-objects)
+[React State Objects Class Build](https://github.com/10-3-pursuit/starter-react-state-objects)
 
 ## Import data
 
@@ -66,18 +66,17 @@ const [dogs, setDogs] = useState(dogsData);
 ```js
 // App.jsx
 
-      <main>
-        <ul>
-          {dogs.map((dog) => {
-            return (
-              <li key={dog.id}>
-                <span>{dog.name}</span>
-              </li>
-            );
-          })}
-        </ul>
-      </main>
-
+<main>
+  <ul>
+    {dogs.map((dog) => {
+      return (
+        <li key={dog.id}>
+          <span>{dog.name}</span>
+        </li>
+      );
+    })}
+  </ul>
+</main>
 ```
 
 - What is the importance of the key prop? What is something important to remember about key props?
@@ -106,7 +105,7 @@ function addDog() {
     name: "Rover",
     present: false,
     grade: "100",
-    notes: "The goodest new dog",
+    notes: "The goodest new dog"
   };
 }
 ```
@@ -132,7 +131,7 @@ function addDog() {
     name: "Rover",
     present: false,
     grade: "100",
-    notes: "The goodest new dog",
+    notes: "The goodest new dog"
   };
 
   // make a copy of the dogs array using destructuring
@@ -250,6 +249,6 @@ Add it to the list item and pass `dog` down as a prop:
 You'll notice that the show/hide details functionality already works as a class work through how this function works.
 
 - Why is there state in `DogDetails` and what does it do? What happens if this state were put in the App.js component instead?
-- 
+-
 
 [Here is the full build](https://github.com/pursuit-curriculum-resources/starter-react-state-objects/tree/solution)
