@@ -86,7 +86,7 @@ const [dogs, setDogs] = useState(dogsData);
 ```js
 // App.jsx
 function addDog() {
-  console.log("add Rover");
+  console.log("add newDog named Rover");
 }
 ```
 
@@ -100,7 +100,7 @@ In a later lesson, you'll learn how to use forms in React. For now, we'll just a
 
 ```js
 function addDog() {
-  const rover = {
+  const newDog = {
     id: dogs.length + 50,
     name: "Rover",
     present: false,
@@ -110,7 +110,7 @@ function addDog() {
 }
 ```
 
-To add Rover, we must create a new array, which we can do with the spread operator. Then we can either add Rover to the start or end of the array. Additionally, since we are using `dog.id` for our app function, we need a way to be sure Rover will have a unique object id. Let's add an npm package [uuid](https://www.npmjs.com/package/uuid) to generate a unique id:
+To add a new dog, we must create a new array, which we can do with the spread operator. Then we can either add the new dog to the start or end of the array. Additionally, since we have no database and we are using `dog.id` for our app function, we need a way to be sure the new dog will have a unique object id. Let's add an npm package [uuid](https://www.npmjs.com/package/uuid) to generate a unique id:
 
 ```
 npm install uuid
@@ -126,7 +126,7 @@ function addDog() {
   // Create a new dog named Rover
   // give the dog a "unique" id
   // normally a database would handle the unique id logic for you
-  const rover = {
+  const newDog = {
     id: generateUniqueID(),
     name: "Rover",
     present: false,
@@ -135,9 +135,9 @@ function addDog() {
   };
 
   // make a copy of the dogs array using destructuring
-  // add rover, in this case the dog is added to the first array position
+  // add newDog, in this case the dog is added to the first array position
   // what would you need to change to add him as the last array item?
-  setDogs([rover, ...dogs]);
+  setDogs([newDog, ...dogs]);
 }
 ```
 
