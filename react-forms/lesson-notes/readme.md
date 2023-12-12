@@ -30,10 +30,10 @@ There will be a number of fields to fill out including
 
 Start by forking and cloning the following repository:
 
-[React Forms Class Build](https://github.com/pursuit-curriculum-resources/starter-react-state-objects)
+[React Forms Class Build](https://github.com/10-3-pursuit/starter-react-forms)
 
 ```
-npm i
+npm install
 ```
 
 The form is already built. You'll be adding the functionality to make all the form components controlled by React and then using the form to create a new dog to add to the list.
@@ -153,7 +153,7 @@ The `handleTextChange` function has already been included in `App.js`. Additiona
 function handleTextChange(event) {
   setNewDog({
     ...newDog,
-    [event.target.id]: event.target.value,
+    [event.target.id]: event.target.value
   });
 }
 ```
@@ -171,7 +171,7 @@ The `handleSubmit` function is to make sure all the things that need to occur on
 
 Rather than putting all the logic into this function, new functions with their specific role should be created and called.
 
-Use the `addDog` function to put all the values together (remove the hard-coded Rover object):
+Use the `addDog` function to put all the values together (remove the hard-coded newDog object):
 
 ```js
 // App.jsx
@@ -185,7 +185,7 @@ function addDog() {
     age: newDog.age,
     likesSwimming: checked,
     favFlavor: selectOption,
-    contact: newDog.contact,
+    contact: newDog.contact
   };
   setDogs([createDog, ...dogs]);
 }
@@ -212,7 +212,7 @@ function resetDogForm() {
     age: "",
     likesSwimming: "",
     favFlavor: "",
-    contact: "",
+    contact: ""
   });
   setChecked(false);
   setSelectOption("");
