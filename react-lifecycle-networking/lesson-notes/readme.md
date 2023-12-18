@@ -26,7 +26,7 @@ Today we'll build a Daily Home Page:
 
 Start by forking and cloning the following repository:
 
-- [React Hooks Lifecycle Class Build](https://github.com/pursuit-curriculum-resources/starter-react-lifecycle-networking)
+- [React Hooks Lifecycle Class Build](https://github.com/10-3-pursuit/starter-react-lifecycle-networking)
 
 ## On component mount
 
