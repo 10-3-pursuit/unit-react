@@ -47,7 +47,7 @@ More views have been hidden for ease of document use.
 
 Start by forking and cloning the following repository:
 
-- [React Router Build](https://github.com/pursuit-curriculum-resources/starter-react-router)
+- [React Router Build](https://github.com/10-3-pursuit/starter-react-router)
 
 ## Set Up React Router DOM
 
@@ -330,4 +330,4 @@ Add types to the nav so that it reads:
 - Flameless
 - Celebratory
 
-Then, when a user clicks on the type, it shows a view of just the lamps (or candles) that match the type. If there are no products for that category, display an `h3` that reads `coming soon`. 
+Then, when a user clicks on the type, it shows a view of just the lamps (or candles) that match the type. If there are no products for that category, display an `h3` that reads `coming soon`.
