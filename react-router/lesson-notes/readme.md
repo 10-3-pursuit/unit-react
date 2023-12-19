@@ -57,35 +57,29 @@ When you start this project, all the different components are visible on one pag
 
 Import React Router DOM
 
+**src/index.jsx**
+
+Wrap your app in BrowserRouter. This action will pass down all the router functionality to the components inside.
+
+```js
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx";
+import "./index.css";
+
+const Root = () => {
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>;
+};
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Root />);
+```
+
 **src/App.jsx**
 
 ```js
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-```
-
-Wrap your app in Router. This action will pass down all the router functionality to the components inside.
-
-```js
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <div className="wrapper">
-          <Nav />
-          <main>
-            <Home />
-            <About />
-            <Newsletter />
-            <ProductList products={lamps} type={"Lamps"} />
-            <ProductList products={candles} type={"Candles"} />
-          </main>
-        </div>
-        <Footer />
-      </Router>
-    </div>
-  );
-}
+import { Route, Routes } from "react-router-dom";
 ```
 
 Next, let's define the area that will display the views. Depending on the URL, we will be swapping out the content inside the `main` tag.
