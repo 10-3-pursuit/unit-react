@@ -262,19 +262,22 @@ let { id } = useParams();
 const [product] = products.filter((product) => product.id === id);
 ```
 
+In order to add our single product view, we will have to change our routes and use Route nesting. 
+
 Add the following routes:
 
 **src/App.jsx**
 
 ```js
- <Route
- path="/lamps/:id"
- element={<Product products={lamps} type={"Lamps"} />}
- />
- <Route
- path="/candles/:id"
- element={<Product products={candles} type={"Candles"} />}
- />
+<Route path="/lamps">
+   <Route index element={<ProductList products={lamps} type={"Lamps"} />} />
+    <Route path=":id" element={<Product products={lamps} type={"Lamps"} />}
+    />
+  </Route>
+  <Route path="/candles">
+    <Route index element={<ProductList products={candles} type={"Candles"} />} />
+    <Route path=":id" element={<Product products={candles} type={"Candles"} />} />
+  </Route>
 ```
 
 ## Change the View After an Event
