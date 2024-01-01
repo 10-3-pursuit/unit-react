@@ -270,13 +270,13 @@ Add the following routes:
 
 ```js
 <Route path="/lamps">
-   <Route index element={<ProductList products={lamps} type={"Lamps"} />} />
-    <Route path=":id" element={<Product products={lamps} type={"Lamps"} />} />
-  </Route>
-  <Route path="/candles">
-    <Route index element={<ProductList products={candles} type={"Candles"} />} />
-    <Route path=":id" element={<Product products={candles} type={"Candles"} />} />
-  </Route>
+  <Route index element={<ProductList products={lamps} type={"Lamps"} />} />
+  <Route path=":id" element={<Product products={lamps} type={"Lamps"} />} />
+</Route>
+<Route path="/candles">
+  <Route index element={<ProductList products={candles} type={"Candles"} />} />
+   <Route path=":id" element={<Product products={candles} type={"Candles"} />} />
+</Route>
 ```
 
 ## Change the View After an Event
