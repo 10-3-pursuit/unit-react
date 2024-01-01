@@ -4,7 +4,7 @@ React allows us to build UI (User Interfaces) for websites with components. Fron
 
 We can add a library called [React Router DOM](https://reactrouter.com/docs/en/v6) that will allow us to bring the functionality of a multi-page application to our React apps. Using a library like React Router will enable us to do client-side routing.
 
-**Caveat:** React Router has undergone significant changes with its different versions. This lesson is on Version 6. When you are googling/looking things up on Stack Overflow, make sure you are looking at something that has to do with Version 6. The old syntax and some old solutions don't work with the new version. If you have familiarity with Version 5, you can [go here](https://github.com/joinpursuit/react-router-v5-to-v6) to see a quick summary of most of the changes that would impact the kinds of builds we are making in this class.
+**Caveat:** React Router has undergone significant changes with its different versions. This lesson is on Version 6.2. When you are googling/looking things up on Stack Overflow, make sure you are looking at something that has to do with Version 6.2. The old syntax and some old solutions don't work with the new version. If you have familiarity with Version 5, you can [go here](https://github.com/joinpursuit/react-router-v5-to-v6) to see a quick summary of most of the changes that would impact the kinds of builds we are making in this class.
 
 ## Learning Objectives
 
