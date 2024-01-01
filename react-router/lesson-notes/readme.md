@@ -55,7 +55,7 @@ When you start this project, all the different components are visible on one pag
 
 1. `npm install`
 
-You will notice in `package.json` that the correct version of `react-router-dom` was already added for you to install. You will usually opt for version 6. (e.g. `npm install react-router-dom@6`)
+You will notice in `package.json` that the correct version of `react-router-dom` was already added for you to install. You will usually opt for version 6. (e.g. `npm install react-router-dom@6.21.0`)
 
 Import React Router DOM
 
