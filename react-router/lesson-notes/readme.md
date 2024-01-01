@@ -275,7 +275,7 @@ Add the following routes:
 </Route>
 <Route path="/candles">
   <Route index element={<ProductList products={candles} type={"Candles"} />} />
-   <Route path=":id" element={<Product products={candles} type={"Candles"} />} />
+  <Route path=":id" element={<Product products={candles} type={"Candles"} />} />
 </Route>
 ```
 
