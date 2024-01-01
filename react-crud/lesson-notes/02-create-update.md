@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to:
 
 Start by returning to your previous code. If you need to start fresh with the completed code from previous lessons:
 
-- [React CRUD Lab with index, show and delete completed](https://github.com/joinpursuit/8-0-react-crud-lab/tree/index-show-delete)
+- [React CRUD Lab with index, show and delete completed]()
 
 Follow the instructions in that repository to get the application up and running.
 
