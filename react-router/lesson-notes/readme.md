@@ -271,8 +271,7 @@ Add the following routes:
 ```js
 <Route path="/lamps">
    <Route index element={<ProductList products={lamps} type={"Lamps"} />} />
-    <Route path=":id" element={<Product products={lamps} type={"Lamps"} />}
-    />
+    <Route path=":id" element={<Product products={lamps} type={"Lamps"} />} />
   </Route>
   <Route path="/candles">
     <Route index element={<ProductList products={candles} type={"Candles"} />} />
