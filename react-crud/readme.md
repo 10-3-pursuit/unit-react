@@ -2,7 +2,7 @@
 
 Until now, you've learned how to use React to render content using JavaScript. You've seen how React allows you to integrate external APIs into your page and how you can make React applications feel like complex websites through routing.
 
-You may be surprised to learn that there's not much else to React than what you've learned so far. Much of the challenge as you advance will be to synthesize what you have learned and apply it to increasingly complex projects.
+You may be surprised to learn that you've now learned the basics of React. Much of the challenge as you advance will be to synthesize what you have learned and apply it to increasingly complex projects.
 
 That said, building a typical application you might see on the web is quite complex. In this lesson, you'll focus on learning about the key actions that interact with data on just about every website.
 
