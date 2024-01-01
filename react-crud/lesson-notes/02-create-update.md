@@ -198,4 +198,4 @@ Take a few minutes to test all your features.
 
 ## Completed Build
 
-[See the complete build here](https://github.com/joinpursuit/8-0-react-crud-lab/tree/build-complete)
+Instructor will share complete build at the end of class
