@@ -28,8 +28,6 @@ Television Shows API: Find the starter code for your server api: [starter-televi
 
 **In class you will build out the `shows` resource**
 
-**For your lab, you'll use what you learned in class to build out the `movies` resource.**
-
 ## Guiding questions and app exploration
 
 First, once your applications are up and running, review the code in the React CRUD Lab repository. Answer the following questions.
@@ -351,8 +349,6 @@ You will need to make a `GET` request.
 Open `src/api/fetch.js`
 
 ```js
-// src/api/fetch.js
-// Show/Get one
 export function getOneShow(id) {
   return fetch(`${URL}/shows/${id}`).then((response) => response.json());
 }
@@ -362,8 +358,9 @@ Open the `src/components/shows/Show.jsx` file.
 
 Import `getOneShow()`
 
+**src/components/shows/Show.jsx**
+
 ```js
-// src/components/shows/Show.jsx
 import { getOneShow } from "../../api/fetch";
 ```
 
@@ -406,9 +403,11 @@ When you use `fetch()`, the default is to make a `GET` request. You can pass an 
 
 Open `src/api/fetch.js`
 
+
+**src/api/fetch.js**
+Delete
+
 ```js
-// src/api/fetch.js
-// Delete
 export function destroyShow(id) {
   const options = { method: "DELETE" };
   return fetch(`${URL}/shows/${id}`, options);
@@ -419,8 +418,9 @@ Return to `/src/components/shows/Show.jsx`
 
 Import the `destroyShow` function.
 
+**src/components/shows/Show.jsx**
+
 ```js
-// src/components/shows/Show.jsx
 import { destroyShow, getOneShow } from "../../api/fetch";
 ```
 
@@ -454,3 +454,7 @@ function handleDelete() {
 ## Next lesson
 
 In the next lesson, you will build the create and edit functionality.
+
+## Lab
+
+**For your lab, you'll use what you learned in class to build out the `movies` resource.**
