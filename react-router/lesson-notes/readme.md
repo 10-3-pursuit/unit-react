@@ -88,6 +88,8 @@ import { Route, Routes } from "react-router-dom";
 
 Next, let's define the area that will display the views. Depending on the URL, we will be swapping out the content inside the `main` tag.
 
+The `<Routes>` component will define the area where we wrap and set up all of the navigational routes.
+
 **NOTE** Your app will break and not work until you complete the next step
 
 **src/App.jsx**
