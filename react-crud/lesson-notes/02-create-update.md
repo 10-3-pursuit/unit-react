@@ -43,12 +43,12 @@ export function createShow(show) {
 }
 ```
 
-Go to the `src/components/shows/ShowsNewForm.js` file.
+Go to the `src/components/shows/ShowsNewForm.jsx` file.
 
 Import `createShow()`
 
 ```js
-// src/components/shows/ShowsNewForm.js
+// src/components/shows/ShowsNewForm.jsx
 import { createShow } from "../../api/fetch";
 ```
 
@@ -113,12 +113,12 @@ export function updateShow(id, show) {
 }
 ```
 
-Go to the `src/components/shows/ShowsEditForm.js` file.
+Go to the `src/components/shows/ShowsEditForm.jsx` file.
 
 Import `updateShow()`:
 
 ```js
-// src/components/shows/ShowsEditForm.js
+// src/components/shows/ShowsEditForm.jsx
 import { updateShow } from "../../api/fetch";
 ```
 
