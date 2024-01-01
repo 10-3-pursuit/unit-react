@@ -138,7 +138,7 @@ In this application, fetch requests will go inside the `src/api/fetch.js` file a
 At the top of this file, add:
 
 ```js
-const URL = process.env.REACT_APP_API_BASE_URL;
+const URL = import.meta.env.VITE_BASE_API_URL
 ```
 
 This will get the value of the base URL from the `.env` file. Currently, the fetch requests are going to a locally running API version. However, if you want to put this app on the internet, the URL needs to be updated. Using environmental variables lets you manage how applications will run in different environments.
