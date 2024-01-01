@@ -16,23 +16,31 @@ Start by forking and cloning the  [React CRUD Lab](https://github.com/10-3-pursu
 
 Follow the instructions in that repository to get the application up and working.
 
-- Then fork and clone the API that is linked in the lab. You'll have to open another new tab and keep that application running throughout the build along with the React application.
+SERVER API
 
-> **Note:** The second application will be a server on your computer. This server will mimic a third-party API, but instead of the resource being somewhere on the internet, it will be on your machine. You will not need to edit the code in this application to complete the build.
+You will be running your own local server on your machine. Follow the instructions at the link below to get it up and running.
 
-In class you will build out the `shows` resource. During lab, you'll use what you learned in class to build out the `movies` resource.
+Television Shows API: Find the starter code for your server api: [starter-television-movies-api](https://github.com/10-3-pursuit/starter-television-movies-api)
+
+- Then fork and clone the server. You'll have to open another new tab and keep that application running throughout the build along with the React application.
+
+> **Note:** The second application will be a server on your computer. This server will mimic a third-party API, but instead of the resource being somewhere on the internet, it will be on your machine. You will not need to edit the code in this React application to complete the build.
+
+**In class you will build out the `shows` resource**
+
+**For your lab, you'll use what you learned in class to build out the `movies` resource.**
 
 ## Guiding questions and app exploration
 
 First, once your applications are up and running, review the code in the React CRUD Lab repository. Answer the following questions.
 
-- Take a look at the `src/App.js` file. React Router has already been set up for you. How do you know?
+- Take a look at the `src/App.jsx` file. React Router has already been set up for you. How do you know?
 
-- What is the `.env.development` file? You can view [this page](https://create-react-app.dev/docs/adding-custom-environment-variables/) to get some help.
+- What is the `.env.development` file? You can view [this page](https://vitejs.dev/guide/env-and-mode) to get some help.
 
 - Take a look at the `src/components/common` directory. What kind of components are in this folder?
 
-- Take a look at both `src/components/common/Nav.js` and `src/App.js`. What routes are available to the user in this application?
+- Take a look at both `src/components/common/Nav.jsx` and `src/App.jsx`. What routes are available to the user in this application?
 
 - Take a look at both `src/components/shows`.
 
@@ -90,14 +98,14 @@ In this case, show them a generic error message, like the image below.
 
 ## ShowsIndex
 
-The `ShowsIndex` view is available at `/shows` in the browser (use the `All Shows` link in the nav bar). The file is located at `/src/components/shows/ShowsIndex.js`.
+The `ShowsIndex` view is available at `/shows` in the browser (use the `All Shows` link in the nav bar). The file is located at `/src/components/shows/ShowsIndex.jsx`.
 
 ### ShowsIndex Error Handling
 
 - Add state to the `ShowsIndex` component with `useState`
 
 ```js
-// src/components/shows/ShowsIndex.js
+// src/components/shows/ShowsIndex.jsx
 // Top of file
 import { useState } from "react";
 ```
@@ -350,12 +358,12 @@ export function getOneShow(id) {
 }
 ```
 
-Open the `src/components/shows/Show.js` file.
+Open the `src/components/shows/Show.jsx` file.
 
 Import `getOneShow()`
 
 ```js
-// src/components/shows/Show.js
+// src/components/shows/Show.jsx
 import { getOneShow } from "../../api/fetch";
 ```
 
@@ -407,12 +415,12 @@ export function destroyShow(id) {
 }
 ```
 
-Return to `/src/components/shows/Show.js`
+Return to `/src/components/shows/Show.jsx`
 
 Import the `destroyShow` function.
 
 ```js
-// src/components/shows/Show.js
+// src/components/shows/Show.jsx
 import { destroyShow, getOneShow } from "../../api/fetch";
 ```
 
