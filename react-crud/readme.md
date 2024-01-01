@@ -41,7 +41,7 @@ For example, consider the [Veterinarian API](https://github.com/joinpursuit/reso
 
 However, imagine you want to build an application that doesn't just display information but _modifies it._ How can you add new clients? Change the titles of existing staff?
 
-This lesson will be the first in a small serries to show you how to do the above. In doing so, you'll be able to build real complex applications that are highly interactive and responsive to users.
+This lesson will be the first in a small series to show you how to do the above. In doing so, you'll be able to build real complex applications that are highly interactive and responsive to users.
 
 ## Resources
 
