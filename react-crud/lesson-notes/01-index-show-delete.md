@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to:
 
 ## Getting started
 
-Start by forking and cloning the  React CRUD Lab that is linked in Canvas it should be called `lab-react-crud`
+Start by forking and cloning the  [React CRUD Lab](https://github.com/10-3-pursuit/lab-react-crud)
 
 Follow the instructions in that repository to get the application up and working.
 
