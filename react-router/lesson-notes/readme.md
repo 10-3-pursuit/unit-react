@@ -318,7 +318,7 @@ Add a view for it at `/newsletter`.
 
 When the button on that page is pressed, make it redirect to the `about` page.
 
-[See the build here](https://github.com/pursuit-curriculum-resources/starter-react-router/tree/solution)
+[See the build here](https://github.com/10-3-pursuit/react-router-class)
 
 ## Super Bonus
 
