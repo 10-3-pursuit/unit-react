@@ -249,19 +249,6 @@ import { Link } from "react-router-dom";
 </li>
 ```
 
-**src/components/common/product.jsx**
-
-```js
-import { useParams } from "react-router-dom";
-```
-
-Inside the function, before the if statement.
-
-```js
-let { id } = useParams();
-const [product] = products.filter((product) => product.id === id);
-```
-
 In order to add our single product view, we will have to change our routes and use Route nesting. 
 
 Add the following routes:
@@ -279,6 +266,20 @@ Add the following routes:
 </Route>
 ```
 
+**src/components/common/product.jsx**
+
+```js
+import { useParams } from "react-router-dom";
+```
+
+Inside the function, before the if statement.
+
+```js
+let { id } = useParams();
+const [product] = products.find((product) => product.id === id);
+```
+
+
 ## Change the View After an Event
 
 Imagine you are using this site and want to purchase birthday candles. Once you press the `buy now` button, something should happen. For simplicity, once a user presses the `buy now` button, it will take the user back to the home page.
@@ -288,7 +289,7 @@ Imagine you are using this site and want to purchase birthday candles. Once you 
 Add `Navigate`
 
 ```js
-import { useParams, useNavigate, Navigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 ```
 
 Add `navigate` function to the `mockBuyNow` function
