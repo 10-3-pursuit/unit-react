@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to:
 Start by returning to your previous code. If you need to start fresh with the completed code from previous lessons:
 
 _this link will be added by instructor after code along. Inquire if you do not have this link_
-- [React CRUD Lab with index, show and delete completed]()
+- [React CRUD Lab with index, show and delete completed](https://github.com/10-3-pursuit/class-react-crud)
 
 Follow the instructions in that repository to get the application up and running.
 
