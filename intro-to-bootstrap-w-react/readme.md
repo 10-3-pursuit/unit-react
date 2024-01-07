@@ -23,11 +23,11 @@ By the end of this lesson, you should be able to:
 
 ## How to get Bootstrap
 
-When using Create React App, all you need to do is grab the CDN (Content Delivery Network) link.
+When using the Vite App, all you need to do is grab the CDN (Content Delivery Network) link.
 
-Search for `bootstrap css cdn`. A top link should be the [Quick start page of Bootstrap's official](https://getbootstrap.com/docs/4.3/getting-started/introduction/) documentation.
+Search for `bootstrap css cdn`. A top link should be the [Quick start page of Bootstrap's official](https://getbootstrap.com/docs/5.3/getting-started/introduction/) documentation.
 
-> **Note**: You will be using Bootstrap version 5.x for this lesson.
+> **Note**: You will be using Bootstrap version 5.3 for this lesson.
 
 > **Note**: You will only be using the CSS link for this lesson (not installing with npm or any other means to add Bootstrap).
 
