@@ -222,7 +222,7 @@ This navigation bar is responsive, so adding suitable classes should automatical
 
 ## Bonus Bonus
 
-Bootstrap has also been built to integrate with React with custom components. The npm package is called [react-bootstrap ](https://react-bootstrap.github.io/getting-started/introduction).
+Bootstrap has also been built to integrate with React with custom components. The npm package is called [react-bootstrap ](https://react-bootstrap.github.io/docs/getting-started/introduction).
 
 Rebuild Rosier using react-bootstrap. Be sure to use all the components available (see the left menu under `components`. For example, be sure to check out the following:
 
