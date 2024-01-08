@@ -32,13 +32,18 @@ Starting appearance
 **Note:** some classes for images are already set so that they are not too large to work with as we build. The remaining images are also set to `width:100px` in the `index.css` until we can size them correctly. Once they are sized with Bootstrap, we can remove this code from the `index.css`.
 
 There are a few ways to get Bootstrap into your project. We'll start with just adding a `link` tag. This tag works just like any CSS you'd write yourself. It is hosted elsewhere on the internet but will bring in all the code.
-[Get the link](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+[Get the link](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 It looks like this:
 
-`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">`
+`<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />`
 
-Paste it inside the `head` tag of the `index.html`, which is inside the `public` folder of your React app.
+Although it has already been done for you, you will normally paste it inside the `head` tag of the `index.html`, which is inside the `public` folder of your React app. Take a look.
 
 There are more ways to customize Bootstrap, but we won't cover them today.
 
