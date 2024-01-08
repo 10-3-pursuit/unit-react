@@ -77,7 +77,7 @@ Next, in the `img` tag inside of that div, add the class `img-fluid` - this will
 
 Go to the `Restocked` component.
 
-Add the class `container` to the top level `div` that contains the `h3` that reads `Just Restocked`. When the width is below a certain amount of pixels, the display will be a wider percentage. When the browser is wider, there will be more space around the sides of the container.
+Add the className `container` to the top level `div` that contains the `h3` that reads `Just Restocked`. When the width is below a certain amount of pixels, the display will be a wider percentage. When the browser is wider, there will be more space around the sides of the container.
 
 Let's add a class to the `h3` to style it more as a display. Generally, text on a web page serves two purposes - as a title/display eye-catching part of the page or as text meant for easy reading. Adding the class `display-4` will increase the font size of the `h3`.
 
