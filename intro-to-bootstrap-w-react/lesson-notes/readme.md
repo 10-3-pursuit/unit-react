@@ -62,7 +62,7 @@ Let's style the main image. It is sometimes referred to as a `hero`, `jumbo`, or
 Inside the component `Hero` is a `div` with an `id` of `hero`. Let's add the appropriate class: `container-fluid` - this will make the image stretch 100% of the page, regardless of width.
 
 ```html
-<div class="container-fluid" id="hero"></div>
+<div className="container-fluid" id="hero"></div>
 ```
 
 > **Note** - in `index.css`, all images are set to `width:100px` - to help us see the starting page. We can remove or comment out that code now.
@@ -147,19 +147,19 @@ For certain elements, like `tables`, despite already being a `table` element, yo
 Let's add another class, `table-striped`, to allow for better division between rows.
 
 ```html
-<table class="table table-striped"></table>
+<table className="table table-striped"></table>
 ```
 
 If we want to center the text elements in our table, we could write our CSS in the `index.css` file. But it is better to use Bootstrap whenever possible. Bootstrap has a class called `text-center` that will center our text. This will allow for more consistent styling and less unexpected behaviors with our styles.
 
 ```html
-<table class="table table-striped text-center"></table>
+<table className="table table-striped text-center"></table>
 ```
 
 Finally, we can imagine that each row would be a link to an individual view of each tree with more information and the ability to purchase it. We can add a hover effect to assist our users in recognizing that the table would be interactive.
 
 ```html
-<table class="table table-striped text-center table-hover"></table>
+<table className="table table-striped text-center table-hover"></table>
 ```
 
 ## Newsletter Form
@@ -174,7 +174,7 @@ In the first two `div`s inside the `form`, add the class `mb-3`- this will add s
 
 In `mb-3`, The value is a multiplier. So if the default margin is 1em, this will multiply the spacer value by 1.
 
-[Learn about the full breakdown here](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+[Learn about the full breakdown here](https://getbootstrap.com/docs/5.3/utilities/spacing/)
 
 ### Text Inputs
 
