@@ -81,9 +81,9 @@ What are your takeaways?
 
 Group norms are a set of rules that shape team member's interactions. These are clear agreed-upon behavior, communication, and understanding expectations of each other. This will also help you assign tasks when building your app.
 
-Use this [worksheet to help establish your team norms](https://www.ccl.org/articles/leading-effectively-articles/the-real-world-guide-to-team-norms/).
+Read this [article to help you establish group norms](https://www.ccl.org/articles/leading-effectively-articles/the-real-world-guide-to-team-norms/).
 
-Here is a summary, in case the link becomes broken in the future
+Use the list below to make a document of group norms for your group:
 
 1. Everyone thinks of the worst team they have been on (work, volunteer, sports team, school project).
 1. Everyone takes a moment to jot some notes about why that experience was so terrible.
