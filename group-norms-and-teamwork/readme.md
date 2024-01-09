@@ -99,7 +99,7 @@ Use the list below to make a document of group norms for your group:
 1. Discuss how to deal with a team member who does not follow norms (see below).
 1. Someone else should volunteer to take the list and create a `must do` list - this list should be shared with your whole team and your instructor.
 
-This are the norms your teams should now follow for the project.
+These are the norms your teams should now follow for the project.
 
 ### Challenges
 
