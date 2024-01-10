@@ -145,6 +145,8 @@ These will be the norms your teams should now follow when working together inclu
 
 ## Checklist
 
+Below is a checklist that you can use in a project to confirm that you have taken the correct steps to creating a positive group working environment.
+
 - [ ] Read and discuss Working in Groups
 - [ ] Create group norms (a document you will share with your team and instructor)
 - [ ] Learned everyone's work hours
