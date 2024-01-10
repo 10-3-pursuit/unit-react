@@ -17,6 +17,12 @@ By the end of this lesson, you should be able to:
 - Explain the importance of setting group norms.
 - Be able to work with at least one other person to establish group norms before starting a project.
 
+## Getting Started
+
+The purpose of today is to learn how to create a positive work culture when planning any group work and having open communication.
+
+
+
 ## Succeeding at Group Work
 
 Group work takes a lot of consideration, effort and planning in order to be truly successful.
@@ -66,12 +72,6 @@ Stay open-minded, accept feedback and constructive criticism, apply what you are
 ### Effective Work Practices
 
 In the upcoming lessons we will go into greater depth about how to work effectively as a software engineering team. Each team and their work will likely have somewhat different best practices based on the type of work and goals they have.
-
-## Getting Started
-
-The purpose of today is to learn how to create a positive work culture when planning your group work and having open communication.
-
-
 
 ### Challenges
 
