@@ -6,7 +6,6 @@
 
 By the end of this lesson, you should be able to:
 
--
 - Explain the importance of setting group norms.
 - Be able to work with at least one other person to establish group norms before starting a project.
 
