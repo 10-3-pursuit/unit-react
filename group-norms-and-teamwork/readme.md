@@ -116,8 +116,10 @@ Remember, your instructors want to help you succeed and is here to support you. 
 ### Working in Groups
 
 Read and discuss [Working in Groups](./working-in-groups.md)
-
 What are your takeaways?
+
+Use this reading as an continual individual checkin to see if you are personally succeeding and positively contributing to your group as a team member 
+
 
 ### Creating Group Norms
 

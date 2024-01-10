@@ -4,7 +4,7 @@ A brief tutorial on how to work in groups in the (tech) workplace.
 
 Working in groups is a skill that everyone should practice. Because it is a skill, everyone can learn to collaborate better.
 
-## How to tell if you're working in a group
+## How to tell if you're successfully working in a group
 
 If the answer to any of these questions is "no," you're probably not working in a group:
 
