@@ -138,7 +138,7 @@ Use the list below to make a document of group norms for your group:
 1. Now ask what things make a good work experience versus a bad one.
 1. Someone should volunteer to be a note taker - the note taker should open a google doc (or similar) and screen share so that everyone can see the list and be thoughtful about adding to it or adjusting it.
 1. Ask team members to suggest behaviors and norms that would contribute to the team's success.
-1. Discuss which ones can the team support and adhere to.
+1. Discuss which ones the team can support and adhere to.
 1. Flag any concerns or challenges (see below).
 1. Discuss how to deal with a team member who does not follow norms (see below).
 1. Someone else should volunteer to take the list and create a `must do` list - this list should be shared with your whole team and your instructor.
