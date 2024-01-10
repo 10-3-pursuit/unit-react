@@ -35,7 +35,7 @@ The goal for today will be to understand how to build a team that has the above 
 
 ### Shared Vision and Clear Direction
 
-When working in a group you will share ideas, give feedback and start putting together all of the planning for your project needs
+When working in a group you will share ideas, give feedback and start putting together all of the group dynamic planning for a project's needs
 
 ### Trust and Mutual Respect
 
