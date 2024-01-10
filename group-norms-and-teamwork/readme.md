@@ -4,7 +4,7 @@
 
 While coding skills are very important, being able to work with others is equally important. It is a rare coder who works totally alone and so it's important to build up teamwork skills.
 
-Oftentimes, it is assumed that group dynamics happen naturally and it is not possible to change them. Or, someone can list off bests-practices but doesn't know how to implement them.
+Oftentimes, it is assumed that group dynamics happen naturally and it is not possible to change them. Or, someone can list off best practices but doesn't know how to implement them.
 
 Here, you will learn one way to approach group work and apply it to your upcoming project.
 
