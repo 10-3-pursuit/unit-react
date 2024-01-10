@@ -73,7 +73,7 @@ Stay open-minded, accept feedback and constructive criticism, apply what you are
 
 In the upcoming lessons we will go into greater depth about how to work effectively as a software engineering team. Each team and their work will likely have somewhat different best practices based on the type of work and goals they have.
 
-### Challenges
+### External Challenges
 
 All of you are in this program with different external obligations. One of you may keep hours of 4am to 6:30pm and your partner may start their day at 9am and end at 12am, if class is from 10am - 6pm and you are expected to work on the project outside of class, how would you solve this so that both people can communicate well and contribute equally?
 
