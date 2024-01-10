@@ -31,11 +31,11 @@ Let's start with a list of qualities that successful teams have:
 - Continuous learning
 - Effective work practices
 
-The goal for today will be to start building a team that has the above qualities.
+The goal for today will be to understand how to build a team that has the above qualities.
 
 ### Shared Vision and Clear Direction
 
-Together, you will share your project ideas, give feedback and start putting together all of the planning your capstone needs in order to be successful.
+When working in a group you will share ideas, give feedback and start putting together all of the planning for your project needs
 
 ### Trust and Mutual Respect
 
@@ -69,37 +69,9 @@ In the upcoming lessons we will go into greater depth about how to work effectiv
 
 ## Getting Started
 
-The purpose of today is to create a positive work culture by planning your group work and having open communication.
+The purpose of today is to learn how to create a positive work culture when planning your group work and having open communication.
 
-### Working in Groups
 
-Read and discuss [Working in Groups](./working-in-groups.md)
-
-What are your takeaways?
-
-### Creating Group Norms
-
-Group norms are a set of rules that shape team member's interactions. These are clear agreed-upon behavior, communication, and understanding expectations of each other. This will also help you assign tasks when building your app.
-
-Read this [article to help you establish group norms](https://www.ccl.org/articles/leading-effectively-articles/the-real-world-guide-to-team-norms/).
-
-Use the list below to make a document of group norms for your group:
-
-1. Everyone thinks of the worst team they have been on (work, volunteer, sports team, school project).
-1. Everyone takes a moment to jot some notes about why that experience was so terrible.
-1. Ask everyone to share.
-1. Everyone now thinks of the best team experience.
-1. Everyone takes a moment to jot some notes about why that experience was so great.
-1. Ask everyone to share.
-1. Now ask what things make a good work experience versus a bad one.
-1. Someone should volunteer to be a note taker - the note taker should open a google doc (or similar) and screen share so that everyone can see the list and be thoughtful about adding to it or adjusting it.
-1. Ask team members to suggest behaviors and norms that would contribute to the team's success.
-1. Discuss which ones can the team support and adhere to.
-1. Flag any concerns or challenges (see below).
-1. Discuss how to deal with a team member who does not follow norms (see below).
-1. Someone else should volunteer to take the list and create a `must do` list - this list should be shared with your whole team and your instructor.
-
-These are the norms your teams should now follow for the project.
 
 ### Challenges
 
@@ -139,7 +111,37 @@ There are many ways to handle conflicts, but here are some dos and don'ts to get
 - Listen before giving advice.
 - Reach out to an instructor if you can't resolve something, on your own or if the issue is bigger than what your group can solve (e.g., someone has a family emergency that will take them away from a project for a while).
 
-Remember, your instructor wants to help you succeed and is here to support you. It's not about getting people in trouble, it's about learning to work on a team in a professional way.
+Remember, your instructors want to help you succeed and is here to support you. It's not about getting people in trouble, it's about learning to work on a team in a professional way.
+
+### Working in Groups
+
+Read and discuss [Working in Groups](./working-in-groups.md)
+
+What are your takeaways?
+
+### Creating Group Norms
+
+Group norms are a set of rules that shape team member's interactions. These are clear agreed-upon behavior, communication, and understanding expectations of each other. This will also help you assign tasks when building your app.
+
+Read this [article to help you establish group norms](https://www.ccl.org/articles/leading-effectively-articles/the-real-world-guide-to-team-norms/).
+
+Use the list below to make a document of group norms for your group:
+
+1. Everyone thinks of the worst team they have been on (work, volunteer, sports team, school project).
+1. Everyone takes a moment to jot some notes about why that experience was so terrible.
+1. Ask everyone to share.
+1. Everyone now thinks of the best team experience.
+1. Everyone takes a moment to jot some notes about why that experience was so great.
+1. Ask everyone to share.
+1. Now ask what things make a good work experience versus a bad one.
+1. Someone should volunteer to be a note taker - the note taker should open a google doc (or similar) and screen share so that everyone can see the list and be thoughtful about adding to it or adjusting it.
+1. Ask team members to suggest behaviors and norms that would contribute to the team's success.
+1. Discuss which ones can the team support and adhere to.
+1. Flag any concerns or challenges (see below).
+1. Discuss how to deal with a team member who does not follow norms (see below).
+1. Someone else should volunteer to take the list and create a `must do` list - this list should be shared with your whole team and your instructor.
+
+These will be the norms your teams should now follow when working together including in projects.
 
 ## Checklist
 
