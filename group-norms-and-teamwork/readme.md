@@ -111,7 +111,7 @@ There are many ways to handle conflicts, but here are some dos and dont's to get
 - Listen before giving advice.
 - Reach out to an instructor if you can't resolve something, on your own or if the issue is bigger than what your group can solve (e.g., someone has a family emergency that will take them away from a project for a while).
 
-Remember, your instructors want to help you succeed and is here to support you. It's not about getting people in trouble, it's about learning to work on a team in a professional way.
+Remember, your instructors want to help you succeed and are here to support you. It's not about getting people in trouble, it's about learning to work on a team in a professional way.
 
 ### Working in Groups
 
