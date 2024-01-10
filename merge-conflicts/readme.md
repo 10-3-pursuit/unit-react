@@ -55,6 +55,8 @@ To best understand conflicts, it's helpful to see one directly. The steps below 
 
 1. Next, you'll want to create a file that can cause a conflict. Create an `index.js` file and copy the following code inside of it.
 
+
+index.js
    ```js
    function createPerson(name, age) {
      return {
