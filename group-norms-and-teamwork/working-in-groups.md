@@ -84,7 +84,7 @@ More experienced team members:
 
 - Gain a deeper understanding of the subject matter by explaining it to less experienced teammates.
 - The process of explaining their code will help them better understand and evaluate it.
-- The skills they are building is improving how they talk about code, leadership, teaching/training others.
+- The skills they are building are improving how they talk about code, leadership, teaching/training others.
 - They will also start learning how to explain things to people with different learning styles.
 
 Less experienced students:
