@@ -89,7 +89,7 @@ Understanding that everyone is expected to work on the front-end and back-end of
 
 ### Conflict Resolution
 
-There are many ways to handle conflicts, but here are some dos and don'ts to get you started as you make your own team norms.
+There are many ways to handle conflicts, but here are some dos and dont's to get you started as you make your own team norms.
 
 #### Don't
 
